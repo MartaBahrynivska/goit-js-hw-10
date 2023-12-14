@@ -8,7 +8,7 @@ export function fetchBreeds() {
                 throw new Error(response.status);
             }
             return response.json();
-        });       
+        });
 };
 
 export function fetchCatByBreed(breedId) {
@@ -18,5 +18,5 @@ export function fetchCatByBreed(breedId) {
                 throw new Error(response.status);
             }
             return response.json();
-        });  
+        });
 };
